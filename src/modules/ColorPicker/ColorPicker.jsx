@@ -11,7 +11,7 @@ const ColorPicker = ({ options }) => {
       : styles.ColorPicker__options;
   };
 
-  const { label, color } = options[activeIndex];
+  const { label } = options[activeIndex];
 
   const elementsButton = options.map(({ color }, index) => (
     <button
