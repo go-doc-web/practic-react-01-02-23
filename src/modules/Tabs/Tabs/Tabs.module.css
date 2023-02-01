@@ -1,0 +1,39 @@
+.wrapper {
+  /* border: 1px solid black; */
+  border-top: none;
+}
+
+.Button {
+  box-sizing: border-box;
+  font-family: inherit;
+  display: inline-block;
+  width: 120px;
+  height: 32px;
+  border: 1px solid black;
+  background-color: gray;
+  margin: 0;
+  padding: 0;
+
+  cursor: pointer;
+  transition: border-bottom 250ms linear;
+}
+
+.Button + .Button {
+  border-left: none;
+}
+
+.block {
+  padding: 20px;
+  border: 1px solid black;
+  border-top: none;
+  background-color: gray;
+}
+
+p {
+  margin: 0;
+}
+
+.Button.active {
+  border-bottom: none;
+  height: 33px;
+}
