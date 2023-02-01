@@ -1,6 +1,6 @@
-import Counter from 'modules/Counter';
-import Search from 'modules/Search';
-import ColorPicker from 'modules/ColorPicker';
+// import Counter from 'modules/Counter';
+// import Search from 'modules/Search';
+// import ColorPicker from 'modules/ColorPicker';
 import Tabs from 'modules/Tabs/Tabs';
 
 import tabsOption from 'data/tabsOption';
